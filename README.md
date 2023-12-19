@@ -15,7 +15,7 @@ Available [here on Netlify](https://usepopcorn-tsm13.netlify.app/).
 ### Main technical concepts applied in this project:
 
 - Simple state management with `useState`.
-- `useEffect` for effectful and imperative code, such as performing data fetching from an external API, [OMDB] (https://www.omdbapi.com/), and changing the page title according to movie name.
+- `useEffect` for effectful and imperative code, such as performing data fetching from an external API, [OMDB](https://www.omdbapi.com/), and changing the page title according to movie name.
 - `useRef`, to access a DOM element.
 - Custom hooks.
 - Local data persistence with `localStorage`.
