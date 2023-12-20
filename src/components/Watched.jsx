@@ -10,7 +10,7 @@ function WatchedSummary({ watched }) {
   const avgRuntime = average(watched.map((movie) => movie.runtime));
   return (
     <div className="summary">
-      <h2>Movies you watched</h2>
+      <h2>Averages stats for your movies:</h2>
       <div>
         <p>
           <span>#️⃣</span>
@@ -54,15 +54,15 @@ function WatchedMovie({ movie, onDeleteWatched }) {
       <h3>{movie.title}</h3>
       <div>
         <p>
-          <span>⭐️</span>
+          <span title="Average IMDB Rating">⭐️</span>
           <span>{movie.imdbRating}</span>
         </p>
         <p>
-          <span>🌟</span>
+          <span title="Your Rating">🌟</span>
           <span>{movie.userRating}</span>
         </p>
         <p>
-          <span>⏳</span>
+          <span title="Runtime">⏳</span>
           <span>{movie.runtime} min</span>
         </p>
         <button
